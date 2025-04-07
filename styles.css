@@ -1,0 +1,125 @@
+/* Base */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #fefbef;
+    color: #d34b4b;
+  }
+  
+  h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #d34b4b;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #d34b4b;
+  }
+  
+  img {
+    max-width: 100%;
+    border-radius: 12px;
+  }
+  
+  /* Header */
+  .header {
+    background: #fffaf0;
+    padding: 1rem 2rem;
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  /* Hero */
+  .hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #fff8f0;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Créations */
+  .creations {
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .item {
+    width: 300px;
+  }
+  
+  .item p {
+    margin-top: 0.5rem;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 2rem;
+    background: #fff8f0;
+    font-size: 0.9rem;
+  }
+
+  .logo {
+    height: 70px;
+    width: auto;
+  }
+  
+  /* Bouton "Commander" stylé */
+  .btn-commander {
+    background: linear-gradient(145deg, #ff9aa2, #f48fb1);
+    color: white;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    padding: 0.75rem 1.8rem;
+    border: none;
+    border-radius: 999px;
+    box-shadow: 0 4px 8px rgba(211, 75, 75, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-commander:hover {
+    background: linear-gradient(145deg, #f48fb1, #ff9aa2);
+    transform: scale(1.05);
+  }
+  .nav a:not(:last-child) {
+    padding-right: 1rem;
+    margin-right: 1rem;
+  }
+  .nav {
+    border-top: 1px solid #eee;
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+  }
